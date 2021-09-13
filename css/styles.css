@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(201, 209, 197);
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-right: 60px;
+  margin-bottom: 15px;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  border: 3px solid rgb(179, 166, 166);
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 0px 15px 6px rgba(22, 249, 199, 0.21) inset;
+  -moz-box-shadow: 2px 0px 15px 6px rgba(22, 249, 199, 0.21) inset;
+  box-shadow: 2px 0px 15px 6px rgba(22, 249, 199, 0.21) inset;
+  background-color: #2e9748;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
+
+.label {
+  font-size: large;
+  font-weight: 500;
+  font-size: 30px;
+
+  background-color: #2e9748;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+}
